@@ -1,0 +1,52 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	
+}
+.container {
+	width:100%;
+	padding:5px;
+	
+}
+.row {
+	display:flex;
+}
+.content1 {
+	position:relative;
+	width:50%;
+	padding:10px;
+	
+	
+}
+.play {
+	position:absolute;
+	top:47%;
+	left:44%;
+}
+.content2 {
+	width:50%;
+	padding:10px;
+}
+.col2 {
+	display:flex;
+	padding:10px;
+}
+.para {
+	
+	padding:5px;
+}
+i {
+	color:blue;
+	padding:16px;
+	font-size:20px;
+	border:2px solid blue;
+	border-radius:50%;
+}
+i:hover {
+	cursor:pointer;
+	color:#fff;
+	background-color:blue;
+	border:2px solid blue;
+}
